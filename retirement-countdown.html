@@ -216,7 +216,13 @@
         holidays.push(new Date(year, 11, 25));
         holidays.push(new Date(year, 11, 26));
 
+       // add known time off
+       
         return holidays;
+        holidays.push(new Date(year, 11, 29));
+        holidays.push(new Date(year, 11, 30));
+        holidays.push(new Date(year, 11, 31));
+        holidays.push(new Date(year, 0, 2));
     }
 
     function getNthWeekdayOfMonth(year, month, weekday, n) {
@@ -370,4 +376,5 @@
 </script>
 </body>
 </html>
+
 
